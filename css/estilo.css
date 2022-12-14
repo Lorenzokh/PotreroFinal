@@ -100,28 +100,30 @@ aside {
 }
 
 section {
+
  flex: 150px;
  background-color: white;
  padding: 10%;
 }
 .container{
-  display: flex;
   gap:10%;
   padding-left: 60px;
-
 }
 
 .listas{
-  display: flex;
-  justify-content: center;
-  gap:1%;
+  padding-left: 40px;
+  justify-content: space-between;
   }
+
   .pizzas{
-    display: flex;
+    padding-left: 40px;
     justify-content: center;
     gap:1%;
     }
-
+.rotulo {
+  display:flex;
+  justify-content: center;
+}
 
 .deco_img {
     border-style: solid;
