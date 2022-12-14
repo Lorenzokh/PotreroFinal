@@ -104,6 +104,25 @@ section {
  background-color: white;
  padding: 10%;
 }
+.container{
+  display: flex;
+  gap:10%;
+  padding-left: 60px;
+
+}
+
+.listas{
+  display: flex;
+  justify-content: center;
+  gap:1%;
+  }
+  .pizzas{
+    display: flex;
+    justify-content: center;
+    gap:1%;
+    }
+
+
 .deco_img {
     border-style: solid;
 }
