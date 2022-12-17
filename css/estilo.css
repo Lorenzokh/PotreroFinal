@@ -100,33 +100,66 @@ aside {
 }
 
 section {
-
  flex: 150px;
  background-color: white;
  padding: 10%;
 }
-.container{
-  gap:10%;
-  padding-left: 60px;
-}
 
-.listas{
+.pizzas{
+  display: flex;
+  flex-wrap: wrap;
   padding-left: 100px;
   justify-content: center;
-  }
+  gap:20px;
+  padding-left: 40px;
+  gap:1%;
+   align-items: stretch;
+}
 
-  .pizzas{
-    padding-left: 40px;
+.container{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+  gap:20px;
+  padding-left: 20px;
+  justify-content: center;
+  gap:1%;
+}
+.listas{
+display: flex;
+flex-wrap: wrap;
+  padding-left: 100px;
+  justify-content: center;
+    gap:20px;
+  justify-content: center;
+  gap:1%;
+}
+
+.listas {
+    padding-left: 10px;
     justify-content: center;
     gap:1%;
     }
-.rotulo {
-  display:flex;
-  justify-content: center;
-}
 
+.rotulo{
+  display: flex;
+  justify-content: center;
+border-style: solid;
+}
 .deco_img {
     border-style: solid;
+}
+
+.frase{
+  font-size: 25px;
+}
+
+.frase {
+  background-color: lightgreen;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 40px;
 }
 
 @media (max-width: 768px) {
