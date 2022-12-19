@@ -13,10 +13,6 @@ body{
 @media (min-width: 995px) {
   body { background-color: blue; }
 }
-
-.wp-fijo {
-   top: 70%;
-}
 .wp-fijo {
    position: fixed;
    right: 5%;
@@ -24,7 +20,6 @@ body{
 }
 
 header {
-
 background-color: black;
 flex: 90%;
 display: flex;
@@ -34,11 +29,9 @@ flex-wrap: wrap;
 padding: 1%;
 }
 
-.logo  { background-color: grey;
-       height: 30%;
-       display: contents;
-   justify-content: space-around;
+.logo  {
        gap: 50px;
+       margin-top: 40px;
      }
 
 .redessociales {background-color: grey;
@@ -104,22 +97,19 @@ section {
  background-color: white;
  padding: 10%;
 }
-
 .pizzas{
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 100px;
-  justify-content: center;
-  gap:20px;
-  padding-left: 40px;
-  gap:1%;
-   align-items: stretch;
+display: flex;
+flex-wrap: wrap;
+padding-left: 10px;
+justify-content: center;
+    gap:20px;
+margin-top: 40px;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-    justify-content: center;
+  justify-content: center;
   gap:20px;
   padding-left: 20px;
   justify-content: center;
@@ -128,18 +118,11 @@ section {
 .listas{
 display: flex;
 flex-wrap: wrap;
-  padding-left: 100px;
-  justify-content: center;
+padding-left: 10px;
+justify-content: center;
     gap:20px;
-  justify-content: center;
-  gap:1%;
+margin-top: 40px;
 }
-
-.listas {
-    padding-left: 10px;
-    justify-content: center;
-    gap:1%;
-    }
 
 .rotulo{
   display: flex;
@@ -150,13 +133,10 @@ border-style: solid;
     border-style: solid;
 }
 
-.frase{
-  font-size: 25px;
-}
-
 .frase {
   background-color: lightgreen;
     border-radius: 10px;
+    font-size: 25px;
     padding: 10px;
     margin: 5px;
     margin-top: 40px;
@@ -165,7 +145,6 @@ border-style: solid;
 @media (max-width: 768px) {
   section { background-color: white; }
 }
-
 @media (min-width: 990px) {
   section { background-color: white; }
 }
@@ -181,11 +160,11 @@ gap: 50px;
 flex-wrap: wrap;
 padding: 5%;
 }
-
 .redessociales {background-color: grey;
       height: 25%;
-      margin-top: 10px;
+      margin-top: 70px;
 }
 .desarrollador{
 font-size: 10px;
+margin-top: 40px;
 }
