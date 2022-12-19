@@ -97,25 +97,25 @@ section {
  background-color: white;
  padding: 10%;
 }
+h1{
+  color:orange;
+}
 .pizzas{
 display: flex;
 flex-wrap: wrap;
 padding-left: 10px;
 justify-content: center;
-    gap:20px;
+gap:10px;
 margin-top: 40px;
-}
-.strong{
-  font-size: 20px;
 }
 .container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap:20px;
+  gap:10px;
   padding-left: 20px;
   justify-content: center;
-  gap:1%;
+
 }
 .listas{
 display: flex;
